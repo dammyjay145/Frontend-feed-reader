@@ -452,6 +452,42 @@ body {
   width: fit-content;
 }
 
+.simon-topic-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 5%;
+  background: #e6cbeac9;
+  color: #d437cf;
+  font-size: 0.9rem;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.josh-topic-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 5%;
+  background: #bcdcfdc9;
+  color: #3c37d4;
+  font-size: 0.9rem;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.figma-topic-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 5%;
+  background: #949da7c9;
+  color: #010101;
+  font-size: 0.9rem;
+  font-weight: 600;
+  width: fit-content;
+}
+
 .feed-meta .simonlogo {
   font-size: 0.75rem;
   background-color: #1e293b;
@@ -464,6 +500,14 @@ body {
 .feed-meta .joshlogo {
   font-size: 0.75rem;
   background-color: #621e9a;
+  color: #cbd5e1;
+  border-radius: 6px;
+  width: 17px;
+  height: 17px;
+}
+.feed-meta .figmalogo {
+  font-size: 0.75rem;
+  background-color: #0c0b0c;
   color: #cbd5e1;
   border-radius: 6px;
   width: 17px;
