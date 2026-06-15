@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontpage Reader</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <a href="#" class="brand">
+          <span class="brand__badge">F</span>
+          Frontpage
+        </a>
+
+        <nav class="topnav" aria-label="Primary navigation">
+          <a href="#" class="active"><span>Feed</span></a>
+          <a href="#"><span>Digest</span></a>
+          <a href="#"><span>Discover</span></a>
+        </nav>
+
+        <div class="topbar-actions">
+          <div class="search">
+            <input
+              type="search"
+              placeholder="Search articles..."
+              aria-label="Search articles"
+            />
+          </div>
+          <button class="icon-button" aria-label="Add new feed">+</button>
+          <div class="avatar" aria-label="Profile initials">MS</div>
+        </div>
+      </header>
+
+      <section class="layout">
+        <aside class="sidebar">
+          <div class="panel">
+            <a href="#" class="list-item">
+              <div class="list-item-header">
+                <strong>All Items</strong>
+              </div>
+              <span>47</span>
+            </a>
+            <a href="#" class="list-item">
+              <div>
+                <strong>Saved</strong>
+                <span></span>
+              </div>
+              <span>12</span>
+            </a>
+          </div>
+
+          <div class="panel1">
+            <h2>Categories</h2>
+            <a href="#" class="list-item">
+              <div>Frontend</div>
+              <span>14</span>
+            </a>
+            <a href="#" class="list-item">
+              <div>CSS-Tricks</div>
+              <span>3</span>
+            </a>
+            <a href="#" class="list-item">
+              <div>Smashing Mag</div>
+              <span>4</span>
+            </a>
+            <a href="#" class="list-item">
+              <div>Josh Comeau</div>
+              <span>2</span>
+            </a>
+            <a href="#" class="list-item">
+              <div>Kent C. Dodds</div>
+              <span>2</span>
+            </a>
+            <a href="#" class="list-item">
+              <div>web.dev</div>
+              <span>3</span>
+            </a>
+            <a href="#" class="list-item">
+              <div>Design</div>
+              <span>11</span>
+            </a>
+
+            <a href="#" class="list-item">
+              <div>Sidebar.io</div>
+              <span>5</span>
+            </a>
+
+            <a href="#" class="list-item">
+              <div>NN Group</div>
+              <span>2</span>
+            </a>
+
+            <a href="#" class="list-item">
+              <div>Figma Blog</div>
+              <span>2</span>
+            </a>
+
+            <a href="#" class="list-item">
+              <div>UX Collective</div>
+              <span>2</span>
+            </a>
+
+            <a href="#" class="list-item">
+              <div>Backend & DevOps</div>
+              <span>8</span>
+            </a>
+
+            <a href="#" class="list-item">
+              <div>General Tech</div>
+              <span>6</span>
+            </a>
+
+            <a href="#" class="list-item">
+              <div>AI & ML</div>
+              <span>8</span>
+            </a>
+          </div>
+
+          <div class="panel sidebar-footer">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path
+                d="M9 12l2 2 4-4"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+              />
+            </svg>
+            All feeds healthy
+          </div>
+        </aside>
+
+        <main class="content">
+          <div class="content-header">
+            <div class="group">
+              <h1 class="page-title">All Items</h1>
+              <p class="page-subtitle">47 unread</p>
+            </div>
+            <div class="toolbar">
+              <button>List</button>
+              <button>Grid</button>
+              <button class="primary">Newest</button>
+              <button>Refresh</button>
+              <button>Mark all read</button>
+            </div>
+          </div>
+          <div class="spacer">
+            <p>5 new items since your last visit</p>
+          </div>
+
+          <div class="feed-list">
+            <article class="feed-card">
+              <p class="feed-date">TODAY</p>
+              <div class="feed-meta">
+                <span class="source-pill"
+                  ><span class="smashLogo">S</span>Smashing Magazine</span
+                >
+                <span>2h ago</span>
+              </div>
+              <h2 class="feed-title">
+                Practical Guide To Designing For Colorblind Users
+              </h2>
+              <p class="feed-description">
+                Color blindness affects roughly 8% of men and 0.5% of women
+                worldwide. Yet most interfaces rely heavily on color to convey
+                meaning, status, and hierarchy. Here’s how to design interfaces
+                that work for everyone without sacrificing visual richness.
+              </p>
+              <div class="smash-topic-chip">Design</div>
+            </article>
+
+            <article class="feed-card">
+              <div class="feed-meta">
+                <span class="source-pill"
+                  ><span class="cloudlogo">C</span>Cloudflare Blog</span
+                >
+                <span>3h ago</span>
+              </div>
+              <h2 class="feed-title">
+                How We Reduced P99 Latency by 60% with Edge-First Caching
+              </h2>
+              <p class="feed-description">
+                Our engineering team spent the last quarter rethinking how we
+                cache at the edge. The result: dramatically lower tail latency
+                for our most demanding customers.
+              </p>
+              <div class="cloud-topic-chip">Backend &amp; DevOps</div>
+            </article>
+
+            <article class="feed-card">
+              <div class="feed-meta">
+                <span class="source-pill"
+                  ><span class="simonlogo">S</span>Simon Willison</span
+                >
+                <span>4h ago</span>
+              </div>
+              <h2 class="feed-title">
+                Building Effective RAG Systems: What Actually Works in
+                Production
+              </h2>
+              <p class="feed-description">
+                After months of experimenting with retrieval-augmented
+                generation in real applications, here’s what I’ve learned about
+                chunking strategies, embedding models, and metadata filtering.
+              </p>
+              <div class="topic-chip">AI &amp; ML</div>
+            </article>
+
+            <article class="feed-card">
+              <div class="feed-meta">
+                <span class="source-pill"
+                  ><span class="joshlogo">J</span>Josh Comeau</span
+                >
+                <span>5h ago</span>
+              </div>
+              <h2 class="feed-title">
+                The Surprising Truth About CSS Container Queries
+              </h2>
+              <p class="feed-description">
+                Container queries have been available for a while now, but most
+                developers are still using them like media queries with a
+                different syntax.
+              </p>
+              <div class="topic-chip">Frontend</div>
+            </article>
+          </div>
+        </main>
+      </section>
+    </div>
+  </body>
+</html>
